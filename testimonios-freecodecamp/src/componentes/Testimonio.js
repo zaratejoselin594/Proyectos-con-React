@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react';
 
 function Testimonio() {
   return (
@@ -12,3 +12,4 @@ function Testimonio() {
     </div>
   );
 }
+export default Testimonio;
