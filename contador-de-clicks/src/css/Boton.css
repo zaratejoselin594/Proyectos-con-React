@@ -1,14 +1,16 @@
 button{
-  width: 8em;
-  height: 2.5em;
-  font-family: Roboto, sans-serif;
+  width: 6em;
+  height: 2em;
   border: none;
-  background-color: #222;
-  font-weight: bold;
-  font-size: 20px;
+  background-color: #222222;
+  font-size: 26px;
   color: #fff;
   border-radius: 25px;
-  margin: 20px;
+  margin: 15px;
   margin-top: 0px;
   cursor: pointer;
+  transition: background .6s;
+}
+button:hover{
+  background-color: #333;
 }
