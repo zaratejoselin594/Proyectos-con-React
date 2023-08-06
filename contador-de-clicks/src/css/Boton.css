@@ -1,0 +1,12 @@
+button{
+  width: 250px;
+  height: 80px;
+  font-family: Roboto, sans-serif;
+  border: none;
+  font-weight: bold;
+  color: #000;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  margin: 5px;
+  cursor: pointer;
+}
