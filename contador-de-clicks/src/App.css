@@ -10,10 +10,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+#root{
   background: linear-gradient(30deg, #620097, #f69);
 }
 .App{
-  background: linear-gradient(200deg, #620097, #f69);
+  background-color: #fff3;
   width: 40em;
   height: 35em;
   box-shadow: 0px 0px 26px #0003;

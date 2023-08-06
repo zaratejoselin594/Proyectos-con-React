@@ -1,12 +1,14 @@
 button{
-  width: 250px;
-  height: 80px;
+  width: 8em;
+  height: 2.5em;
   font-family: Roboto, sans-serif;
   border: none;
+  background-color: #222;
   font-weight: bold;
-  color: #000;
-  border: 2px solid #fff;
+  font-size: 20px;
+  color: #fff;
   border-radius: 25px;
-  margin: 5px;
+  margin: 20px;
+  margin-top: 0px;
   cursor: pointer;
 }
