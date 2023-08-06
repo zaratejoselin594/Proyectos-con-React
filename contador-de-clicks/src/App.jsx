@@ -1,5 +1,5 @@
 import './App.css';
-import freeCodeCamp from './img/freecodecamp-logo.png'
+import Contador from './componentes/Contador.jsx'
 import Boton from './componentes/Boton.jsx'
 
 function App() {
@@ -13,10 +13,8 @@ function App() {
 
   return (
     <div className="App">
-      <div className='logo-contenedor'>
-        <img src={freeCodeCamp} alt="Logo de freecodecamp" className="freecodecamp-logo" />
-      </div>
       <div className="contenedor-principal">
+        <Contador numClicks/>
         <Boton texto="Click" esBtnClick={true} manejarClick={manejarClick} />
         <Boton texto="Reiniciar" esBtnClick={false} manejarClick={reiniciarContador} />
       </div>
