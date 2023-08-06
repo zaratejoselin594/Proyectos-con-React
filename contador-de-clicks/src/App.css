@@ -3,25 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
-html, body{
-  background-color: #1b1b32;
-}
-.app{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding-top: 15px;
-  font-family: Lato, sans-serif;
-}
-.logo-contenedor{
+
+#root, .App{
   width: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
-  align-items: center;
   justify-content: center;
-  margin: 20px;
+  background: linear-gradient(30deg, #620097, #f69);
 }
-.freecodecamp-logo{
-  height: 50px;
+.App{
+  background: linear-gradient(200deg, #620097, #f69);
+  width: 40em;
+  height: 35em;
+  box-shadow: 0px 0px 26px #0003;
+  font-family: Lato, sans-serif;
+  border-radius: 7px;
 }
