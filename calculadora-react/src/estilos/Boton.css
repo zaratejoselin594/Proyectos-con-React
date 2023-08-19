@@ -25,3 +25,9 @@
 .operador:hover{
   background-color: #ff6600;
 }
+
+.boton-clear{
+  height: 80px;
+  font-size: 1.6em;
+  
+}
