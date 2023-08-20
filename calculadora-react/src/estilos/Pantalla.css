@@ -1,6 +1,6 @@
 .input{
   height: 2em;
-  border-radius: 8px;
+  border-radius: 10px;
   margin: 12px;
   display: flex;
   justify-content: flex-end;
@@ -8,7 +8,7 @@
   font-weight: bold;
   font-size: 30px;
   background-color: #f8cbd8;
-  color: #fff;
+  color: #39324d;
   border: 2px solid #e199ae;
   border-bottom: 5px solid #e199ae;
   padding: 11px 30px 11px 11px;

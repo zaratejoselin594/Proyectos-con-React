@@ -1,7 +1,7 @@
-import '../estilos/BotonClear.css'
+
 
 const BotonClear = (props) => (
-  <div className="boton-clear" onClick={props.manejarClear} >
+  <div className="boton-contenedor operador" onClick={props.manejarClear} >
     {props.children}
   </div>
 );
