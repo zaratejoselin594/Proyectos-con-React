@@ -3,7 +3,7 @@ import Boton from './componentes/Boton'
 import Pantalla from './componentes/Pantalla'
 import BtnClear from './componentes/BotonClear'
 import { useState } from 'react';
-import { evalueate } from 'mathjs'
+import { evaluate } from 'mathjs'
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
     setInput(input + val)
   }
   const calcularRes = () => {
-    setInput(evalueate(input))
+    setInput(evaluate(input))
   }
 
   return (
