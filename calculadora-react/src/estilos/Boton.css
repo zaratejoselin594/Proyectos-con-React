@@ -1,28 +1,33 @@
 .boton-contenedor{
   border: none;
-  height: 83px;
+  height: 1.7em;
+  margin: 10px;
   flex: 1 1;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
   font-size: 38px;
-  background-color: #1b1b32;
+  background-color: #504375;
   color: #fff;
   border-radius: 10px;
-  border: 2px solid #fff;
+  border: 2px solid #39324d;
+  border-bottom: 5px solid #39324d;
   cursor: pointer;
   user-select: none;
   transition: background-color .7s;
+  color: #ffe8ef;
 }
 .boton-contenedor:hover{
-  background-color: #5a01a7;
+  background-color: #39324d;
 }
 .operador{
-  background-color: #00471b;
+  background-color: #ed5887;
+  border: 2px solid #c22557;
+  border-bottom: 5px solid #c22557;
   transition: background-color .7s;
 }
 .operador:hover{
-  background-color: #ff6600;
+  background-color: #c22557;
 }
 
