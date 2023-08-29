@@ -1,0 +1,28 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  color: #fff;
+  background-color: #1b1b32;
+}
+h1{
+  color: #1b1b32;
+  font-size: 2em;
+  text-align: center;
+  margin: 20px 0px;
+}
+.app-tarea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.tareas-listas-principal{
+  width: 600px;
+  min-height: 500px;
+  background-color: #d0d0d5;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 20px;
+}
