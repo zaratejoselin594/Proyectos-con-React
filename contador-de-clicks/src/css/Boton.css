@@ -9,6 +9,7 @@ button{
   margin: 15px;
   margin-top: 0px;
   cursor: pointer;
+  user-select: none;
   transition: background .6s;
 }
 button:hover{
