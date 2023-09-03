@@ -22,6 +22,9 @@ h1{
 .tareas-listas-principal{
   width: 600px;
   min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #d0d0d5;
   padding: 25px;
   margin: 10px;
