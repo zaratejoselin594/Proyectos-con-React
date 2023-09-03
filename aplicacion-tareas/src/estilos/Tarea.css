@@ -11,6 +11,10 @@
   border: 1px solid #fff;
   cursor: pointer;
 }
+.completada{
+  background-color: #5a01a7;
+  text-decoration: line-through;
+}
 .tarea-texto{
   width: 100%;
   height: 100%;
