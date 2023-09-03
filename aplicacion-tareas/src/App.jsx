@@ -1,6 +1,5 @@
 import './App.css';
-import Tarea from './componentes/Tarea'
-import Tarea from './componentes/Tarea-formulario'
+import ListaTarea from './componentes/ListaDeTareas'
 
 function App() {
   return (
@@ -8,7 +7,7 @@ function App() {
       <div className="app-tareas">
         <div className="tareas-listas-principal">
           <h1>Mis Tareas</h1>
-          <Tarea texto="aprender react"/>
+          <ListaTarea />
         </div>
       </div>  
     </div>
