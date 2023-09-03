@@ -7,7 +7,7 @@ function App() {
         <div className="tareas-listas-principal">
           <h1>Mis Tareas</h1>
         </div>
-      </div>
+      </div>  
     </div>
   );
 }
