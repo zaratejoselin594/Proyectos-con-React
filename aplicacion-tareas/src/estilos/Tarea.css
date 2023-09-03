@@ -34,7 +34,7 @@
 .tarea-contenedor:nth-child(3n + 3) {
   background-color: #3b3b4f;
 }
-.completada {
+.tarea-contenedor.completada {
   background-color: #5a01a7;
   text-decoration: line-through;
 }
