@@ -12,11 +12,12 @@ h1{
   text-align: center;
   margin: 20px 0px;
 }
-.app-tarea{
+.app-tareas{
+  width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 .tareas-listas-principal{
   width: 600px;
