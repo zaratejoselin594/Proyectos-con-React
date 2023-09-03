@@ -1,5 +1,4 @@
-import { format } from "mathjs";
-
+import '../estilos/Form.css'
 
 function TareaFormulario(props) {
   return (
@@ -9,3 +8,4 @@ function TareaFormulario(props) {
     </form>
   );
 }
+export default TareaFormulario

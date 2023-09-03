@@ -1,5 +1,6 @@
 import './App.css';
 import Tarea from './componentes/Tarea'
+import Tarea from './componentes/Tarea-formulario'
 
 function App() {
   return (
