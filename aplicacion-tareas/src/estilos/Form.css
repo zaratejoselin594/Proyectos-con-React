@@ -24,7 +24,8 @@
   font-size: 1.6em;
   border-radius: 50%;
   cursor: pointer;
-  background-color: #cb4f57;
+  background-color: #e84d5b;
+  /*#3b234a*/
   color: #fff;
   transition: background .5s, transform .5s;
 }

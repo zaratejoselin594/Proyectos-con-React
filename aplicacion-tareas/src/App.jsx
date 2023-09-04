@@ -6,12 +6,15 @@ function App() {
     <div className="App">
       <div className="app-tareas">
         <div className="tareas-listas-principal">
-          <h1>Domingo</h1>
+          <div className="date">
+            <h1>Lunes</h1>
+            <p>00:00</p>
+          </div>
           <ListaTarea />
         </div>
       </div>  
     </div>
   );
 }
-
+// agregar cuantas tareas en total hay
 export default App;
