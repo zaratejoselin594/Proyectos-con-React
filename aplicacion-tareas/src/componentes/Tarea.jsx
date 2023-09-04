@@ -1,5 +1,5 @@
 import '../estilos/Tarea.css'
-import { IoAdd } from "react-icons/io5";
+import { IoTrashOutline } from "react-icons/io5";
 
 function Tarea({ id, texto, completada, completarTarea, eliminarTarea }) {
   return (
@@ -8,7 +8,7 @@ function Tarea({ id, texto, completada, completarTarea, eliminarTarea }) {
         {texto}
       </div>
         <div onClick={() => eliminarTarea(id)}>
-          <IoAdd  className='tarea-icono'/>
+          <IoTrashOutline  className='tarea-icono'/>
         </div>
     </div>
   );

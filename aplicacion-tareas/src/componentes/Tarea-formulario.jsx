@@ -1,7 +1,7 @@
 import '../estilos/Form.css'
 import React, { useState } from 'react'
 import { v4 as uuidv4 } from 'uuid'
-
+import { IoAdd } from "react-icons/io5";
 
 function TareaFormulario(props) {
 
@@ -23,14 +23,17 @@ function TareaFormulario(props) {
 
   return (
     <form className="tarea-form" autoComplete='off' onSubmit={manejarEnvio}>
-      <input
-        type="text"
-        className="tarea-input"
-        placeholder="Escribe tu tarea"
-        onChange={manejarCambio}
-        name="texto"
-      />
-      <button className="tarea-boton">Agregar Tarea</button>
+      <p className='p-tarea'>Mis tareas...</p>
+      <div className="form">
+        <input
+          type="text"
+          className="tarea-input"
+          placeholder="Escribe tu tarea"
+          onChange={manejarCambio}
+          name="texto"
+        />
+        <button className="boton" ><IoAdd className="tarea-boton" /></button>
+      </div>
     </form>
   );
 }
