@@ -1,6 +1,5 @@
 .tarea-contenedor{
   width: 100%;
-  height: 3em;
   margin: 5px 0px;
   padding: 8px 18px;
   display: flex;
@@ -21,18 +20,14 @@
   border: 1px solid #9997;
   border-radius: 5px;
   overflow-wrap: anywhere;
-  color: #000;
 }
 .tarea-icono{
   width: 25px;
   height: 25px;
   margin: 5px;
 }
-.tarea-icono{
-  color: #000;
-}
 
 .tarea-contenedor.completada {
-  background-color: #cb4f57;
+  background-color: #4443;
   text-decoration: line-through;
 }

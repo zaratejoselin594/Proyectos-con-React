@@ -23,7 +23,6 @@ function TareaFormulario(props) {
 
   return (
     <form className="tarea-form" autoComplete='off' onSubmit={manejarEnvio}>
-      <p className='p-tarea'>Mis tareas...</p>
       <div className="form">
         <input
           type="text"

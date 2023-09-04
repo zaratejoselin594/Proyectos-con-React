@@ -3,14 +3,16 @@
   padding: 0px;
 }
 body{
-  color: #fff;
   background-color: #f9f9f9;
 }
 h1{
-  color: #000;
   font-size: 2em;
-  text-align: center;
+}
+.date{
   margin: 20px 0px;
+  display: flex;
+  align-items: baseline;
+  gap: .6em;
 }
 .app-tareas{
   width: 100%;

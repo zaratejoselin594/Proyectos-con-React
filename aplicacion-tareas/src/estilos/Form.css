@@ -7,7 +7,8 @@
   flex-wrap: wrap;
 }
 .p-tarea{
-  color: #9996;
+  color: #9998;
+  text-align: start;
 }
 .tarea-input{
   width: 76%;
@@ -27,11 +28,10 @@
   background-color: #e84d5b;
   /*#3b234a*/
   color: #fff;
-  transition: background .5s, transform .5s;
+  transition: background .5s;
 }
 .tarea-boton:hover{
   background-color: #e9656e;
-  transform: scale(1.1);
 }
 .boton{
   outline: none;
