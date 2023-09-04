@@ -4,10 +4,10 @@
 }
 body{
   color: #fff;
-  background-color: #1b1b32;
+  background-color: #f8f8f8;
 }
 h1{
-  color: #1b1b32;
+  color: #000;
   font-size: 2em;
   text-align: center;
   margin: 20px 0px;
@@ -15,7 +15,7 @@ h1{
 .app-tareas{
   width: 100%;
   height: 100vh;
-  display: flex;
+  display: flex; 
   justify-content: center;
   align-items: center;
 }
@@ -25,7 +25,6 @@ h1{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #d0d0d5;
   padding: 25px;
   margin: 10px;
   border-radius: 20px;

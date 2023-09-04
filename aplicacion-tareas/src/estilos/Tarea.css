@@ -24,14 +24,11 @@
   height: 25px;
   margin: 5px;
 }
-
-.tarea-contenedor:nth-child(3n + 1){
+  
+.tarea-contenedor:nth-child(2n + 1){
   background-color: #1b1b32;
 }
-.tarea-contenedor:nth-child(3n + 2) {
-  background-color: #2a2a40;
-}
-.tarea-contenedor:nth-child(3n + 3) {
+.tarea-contenedor:nth-child(2n + 1) {
   background-color: #3b3b4f;
 }
 .tarea-contenedor.completada {
