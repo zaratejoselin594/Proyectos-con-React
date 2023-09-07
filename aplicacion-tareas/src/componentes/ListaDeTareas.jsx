@@ -17,15 +17,16 @@ function ListaDeTareas() {
     const tareasActualizadas = tareas.filter(tarea => tarea.id !== id);
     setTareas(tareasActualizadas)
   };
+  let numTareas;
   const completarTarea = id => {
     const tareasActualizadas = tareas.map(tarea => {
       if (tarea.id === id) {
         tarea.completada = !tarea.completada;
       }
+      console.log(numTareas)
       return tarea;
     })
     setTareas(tareasActualizadas)
-    
   };
 
   return (
