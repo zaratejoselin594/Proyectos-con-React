@@ -1,19 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Borel&family=Cherry+Bomb+One&family=Cutive+Mono&family=Indie+Flower&family=M+PLUS+2:wght@100;300;400&family=Montserrat+Alternates&family=Quicksand:wght@300;400&family=Tilt+Prism&display=swap');
 *{
   margin: 0px;
   padding: 0px;
+  font-family: 'Quicksand', sans-serif;
 }
 body{
   background-color: #f9f9f9;
 }
-h1{
-  font-size: 2em;
-}
 .date{
   margin: 20px 0px;
   display: flex;
-  align-items: baseline;
-  gap: .6em;
+  align-items: center;
+  gap: .8em;
+  font-size: 2em;
 }
+.hora{
+  background-color: #9994;
+  border-radius: 5px;
+  border: 1px solid #000;
+  padding: 0px .5em;
+}
+
 .app-tareas{
   width: 100%;
   height: 100vh;
@@ -23,9 +30,7 @@ h1{
 }
 .tareas-listas-principal{
   width: 30em;
-  min-height: 500px;
-  padding: 25px;
-  margin: 10px;
+  height: 100vh;
   border-radius: 20px;
   display: flex;
   align-items: center;

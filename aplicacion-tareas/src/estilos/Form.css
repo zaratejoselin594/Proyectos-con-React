@@ -20,6 +20,9 @@
   outline: none;
   border: none;
 }
+.tarea-input::placeholder{
+  font-size: 1.3em;
+}
 .tarea-boton{
   padding: .3em;
   font-size: 1.6em;
