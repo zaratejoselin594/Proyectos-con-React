@@ -31,7 +31,7 @@ function TareaFormulario(props) {
           onChange={manejarCambio}
           name="texto"
         />
-        <button className="boton" ><IoAdd className="tarea-boton" /></button>
+        <button className="boton" ><IoAdd className="tarea-boton" /> </button>
       </div>
     </form>
   );

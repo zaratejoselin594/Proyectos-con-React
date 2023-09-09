@@ -48,18 +48,6 @@ body::-webkit-scrollbar-track {
   background: transparent;
 }
 body::-webkit-scrollbar-thumb {
-  background-color: #e84d5b;
+  background-color: #fff8;
   border-radius: 20px;
-}
-.fondo-gradient{
-  position: fixed;
-  background: linear-gradient(#e84d9b, rgb(255, 176, 65));
-  width: 60em;
-  height: 60em;
-  filter: blur(100px);
-  filter: saturate(10px);
-  border-bottom-right-radius: 50%;
-  z-index: -1;
-  top: -10em;
-  left: -20em;
 }

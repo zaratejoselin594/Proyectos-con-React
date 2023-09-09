@@ -1,0 +1,11 @@
+
+.wave{
+  position: fixed;
+  background: linear-gradient(#e84d9b, rgb(10, 31, 192));
+  z-index: -1;
+  width: 75em;
+  height: 30em;
+  top: 0em;
+  left: -28em;
+  transform: rotate(-70deg);
+}

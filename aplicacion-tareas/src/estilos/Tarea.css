@@ -18,17 +18,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #fff;
   border-radius: 5px;
   overflow-wrap: anywhere;
 }
 .tarea-icono{
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   margin: 5px;
 }
-
+.iconos{
+  display: flex;
+}
 .tarea-contenedor.completada {
-  background-color: #4443;
+  background-color: #fff7;
   text-decoration: line-through;
 }
