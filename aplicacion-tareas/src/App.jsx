@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="app-tareas">
+        <div className="fondo-gradient"></div>
         <div className="tareas-listas-principal">
           <Reloj />      
           <ListaTarea />

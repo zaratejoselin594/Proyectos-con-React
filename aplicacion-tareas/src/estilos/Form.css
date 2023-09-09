@@ -19,6 +19,7 @@
   box-shadow: 0px 0px 25px #4443;
   outline: none;
   border: none;
+  color: #000;
 }
 .tarea-input::placeholder{
   font-size: 1.3em;
