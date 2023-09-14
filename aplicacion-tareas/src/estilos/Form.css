@@ -12,6 +12,8 @@
 }
 .tarea-input{
   width: 76%;
+  height: auto;
+  overflow-wrap: anywhere;
   margin: 1em 0px;
   background-color: #fff;
   padding: 14px 32px 14px 16px;
