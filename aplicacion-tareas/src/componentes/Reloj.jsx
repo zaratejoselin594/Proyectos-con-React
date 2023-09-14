@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const Reloj = () => {
+const Reloj = ({claseDate,claseDia, claseHora}) => {
   const [fecha, setFecha] = useState(new Date());
 
   useEffect(() => {
@@ -23,9 +23,9 @@ const Reloj = () => {
     minute = minuto
   }
   return (
-    <div className="date">
-      <h1 className='dia'>{nombreDia}</h1>
-      <h2 className='hora'>{hora}:{minute}</h2>
+    <div className={claseDate} >
+      <h1 className={claseDia} >{nombreDia}</h1>
+      <h2 className={claseHora} >{hora}:{minute}</h2>
     </div>
   );
 };

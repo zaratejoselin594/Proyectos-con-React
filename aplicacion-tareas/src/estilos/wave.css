@@ -1,7 +1,7 @@
 
 .wave{
   position: fixed;
-  background: linear-gradient(#e84d9b, rgb(10, 31, 192));
+  background: linear-gradient(#f18a05, rgb(190, 31, 222));
   z-index: -1;
   width: 75em;
   height: 30em;
