@@ -11,7 +11,7 @@ function Tarea({ id, texto, completada, completarTarea, eliminarTarea }) {
         <div  className='iconos'>
         <IoTrashOutline className='tarea-icono' onClick={() => eliminarTarea(id)} />
         <IoPencilOutline className='tarea-icono' />
-        </div>
+        </div>      
     </div>
   );
 }
