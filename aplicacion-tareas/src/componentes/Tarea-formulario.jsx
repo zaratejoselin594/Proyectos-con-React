@@ -36,4 +36,4 @@ function TareaFormulario(props) {
     </form>
   );
 }
-export default TareaFormulario
+export default TareaFormulario;
