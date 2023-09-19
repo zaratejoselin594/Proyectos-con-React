@@ -18,7 +18,7 @@ function ListaDeTareas() {
     setTareas(tareasActualizadas)
   };
   let numTareas;
-  const completarTarea = id => {
+  const completarTarea = id => {  
     const tareasActualizadas = tareas.map(tarea => {
       if (tarea.id === id) {
         tarea.completada = !tarea.completada;
