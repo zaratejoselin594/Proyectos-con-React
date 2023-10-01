@@ -4,6 +4,15 @@ import Reloj from './componentes/Reloj';
 import './estilos/wave.css'
 
 function App() {
+  const [data, setData] = React.useState(null);
+
+  React.useEffect(() => {
+    fetch("/api")
+      .then((res) => res.json())
+      .then((data) => setData(data.message));
+  }, []);
+
+
   return (
     <div className="App">
       <div className="app-tareas">
@@ -15,7 +24,16 @@ function App() {
           <ListaTarea />
         </div>
       </div>  
+
+      
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>{!data ? "Loading..." : data}</p>
+      </header>
     </div>
+    </div>
+
   );
 }
 // agregar cuantas tareas en total hay
