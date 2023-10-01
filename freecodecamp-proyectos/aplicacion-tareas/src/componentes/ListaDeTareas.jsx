@@ -17,6 +17,10 @@ function ListaDeTareas() {
     const tareasActualizadas = tareas.filter(tarea => tarea.id !== id);
     setTareas(tareasActualizadas)
   };
+  const hora = id => {
+    const tareasActualizadas = tareas.filter(tarea => tarea.id !== id);
+    setTareas(tareasActualizadas)
+  };
   let numTareas;
   const completarTarea = id => {  
     const tareasActualizadas = tareas.map(tarea => {
