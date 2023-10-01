@@ -23,15 +23,8 @@ function App() {
           <Reloj claseDate="date" claseDia="dia" claseHora="hora" />      
           <ListaTarea />
         </div>
-      </div>  
-
-      
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>{!data ? "Loading..." : data}</p>
-      </header>
-    </div>
+      </div>    
+      <p>{!data ? "Loading..." : data}</p>
     </div>
 
   );
